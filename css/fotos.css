@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --cor-1: rgba(0, 0, 0, 0.801);
+    --cor-2: rgb(194, 38, 38);
+    --cor-3: rgb(255, 255, 255);
+    --cor-4: rgb(228, 91, 91);
+    --cor-5: rgb(17, 17, 17);
+}
+
+body{
+    background: url("../imagens/geral/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+
+#cabecalho{
+    padding: 10px;
+    background-color: var(--cor-1);
+
+}
+
+#cabecalho .container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+#cabecalho #logo{
+    height: 150px; 
+}
+
+#cabecalho nav li{
+    display: inline-block;
+    border-radius: 8%;
+    font-size: 13pt;
+
+}
+
+#cabecalho nav li a{
+    display: block;
+    padding: 20px;
+    color: var(--cor-3);
+    text-decoration: none;
+    transition: all .2s linear;
+    
+}
+
+#cabecalho nav li a:hover{
+    background-color: var(--cor-2);
+    border: solid 1px white;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+
+.container h2{
+    color: rgb(214, 4, 4);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#galeria ul{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap: 20px;
+
+}
+
+#galeria .container img{
+    border-radius: 20px;
+    
+}
+
+#galeria ul li{
+    list-style: none;
+
+}
+
+#galeria ul li img{
+    display: block;
+    width: 100%;
+    transition: all 0.3s linear;
+    
+}
+
+#galeria ul li img:hover{
+    transform: scale(0.9);
+}
+
+#rodape{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: var(--cor-1);
+    text-align: center;
+    color: var(--cor-2);
+}
