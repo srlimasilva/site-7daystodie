@@ -76,21 +76,22 @@ body{
 
 }
 
-.container .texto1 img{
-    float: left;
-}
-
-.container .texto2 img{
-    float: right;
-}
-
-.container .imagenstex{
+.container .foto1{
     border-radius: 25px;
     float: right;
     max-height: 350px;
-    margin: 20px;
+    margin: 0px 0px 5px 20px;
     border: solid var(--cor-1);
 }
+
+.container .foto2{
+    float: left;
+    max-height: 350px;
+    border: solid var(--cor-1);
+    border-radius: 25px;
+    margin: 30px 30px 30px 0px;
+}
+
 
 #rodape{
     margin-top: 100px;

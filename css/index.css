@@ -81,21 +81,27 @@ body{
 
 }
 
-
 .container .imagenstex{
     border-radius: 25px;
     float: right;
     max-height: 350px;
-    margin: 20px;
+    margin: 0px 0px 30px 30px;
     border: solid var(--cor-1);
 }
 
 .container .texto1 img{
     float: left;
+    max-height: 350px;
+    border: solid var(--cor-1);
+    border-radius: 25px;
+    margin: 20px 20px 20px 0 ;
 }
 
 .container .texto2 img{
     float: right;
+    max-height: 350px;
+    border-radius: 25px;
+    margin: 20px 0px 0px 20px;
 }
 
 #rodape{
