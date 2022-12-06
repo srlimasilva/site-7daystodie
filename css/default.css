@@ -26,7 +26,6 @@ body{
     position: relative;
 }
 
-
 #cabecalho{
     padding: 10px;
     background-color: var(--cor-1);
@@ -65,13 +64,6 @@ body{
     border: solid 1px white;
     border-radius: 10px;
     transition: all 0.2s linear;
-}
-
-.container h2{
-    color: rgb(214, 4, 4);
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 60px;
 }
 
 #rodape{
